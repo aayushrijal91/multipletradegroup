@@ -1,0 +1,89 @@
+header {
+    background: linear-gradient(108deg, #0094F4 16.25%, #0073BD 101.07%);
+}
+
+section.trusted {
+    background: imgUrl('trusted.png') right bottom #0094F4;
+    background-size: contain;
+}
+
+#brandSlider {
+    .slick-track {
+        display: flex;
+    }
+
+    .slick-slide {
+        display: flex;
+        height: inherit;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+section.form {
+    background: imgUrl('form.jpg') center top #ffffff;
+    background-size: contain;
+
+    form {
+        .form-group {
+            border-radius: 16px;
+            border: 1px solid rgba(0, 0, 0, 0.11);
+            background: #FFF;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0 24px;
+        }
+        
+        input.form-control, select.form-control {
+            height: 62px;
+            padding: 8px 24px;
+            outline: none;
+            box-shadow: none;
+            flex-grow: 1;
+        }
+
+        textarea.form-control {
+            padding: 24px 8px;
+            outline: none;
+            box-shadow: none;
+            flex-grow: 1;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        button {
+            height: 62px;
+
+        }
+    }
+}
+
+section.assessment {
+    .accordion {
+        .accordion-card {
+            .question {
+                cursor: pointer;
+            }
+
+            .answer {
+                display: none;
+            }
+
+            &.active {
+                .answer {
+                    display: block;
+                }
+
+                .arrow {
+                    transform: rotate(180deg);
+                    transition: 0.2s all;
+                }
+            }
+
+        }
+    }
+}

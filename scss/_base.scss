@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/enf0iwy.css");
+
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    @apply font-articulat p-0 m-0 overflow-x-hidden;
+}
+
+.container {
+    max-width: 1398px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.description {
+    p {
+        margin-bottom: 16px;
+    }
+}
+
+//Go To Top
+#return-to-top {
+    @apply bg-grey hover:bg-dark border-2 border-white shadow-lg w-[50px] h-[50px] right-[55px] bottom-[95px] rounded-full transition-all duration-100 ease-linear fixed flex justify-center items-center z-10 drop-shadow-2xl;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-primary;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #022444;
+}
