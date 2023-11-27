@@ -87,8 +87,28 @@ $(() => {
     $('.accordion .accordion-card .question').on('click', function () {
         $('.accordion .accordion-card').removeClass('active');
         $(this).parents('.accordion-card').addClass('active');
-
-        // $('.accordion .accordion-card .answer').hide();
-        // $(this).parents('.accordion-card').find('.answer').slideDown();
     })
+
+    if ($(window).width() < 900) {
+        $('.testimonialSlider').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: "30px",
+            adaptiveHeight: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 540,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        centerPadding: "20px",
+                        adaptiveHeight: true,
+                    }
+                }
+            ]
+        })
+    }
 })

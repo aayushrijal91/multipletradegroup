@@ -406,7 +406,7 @@
         <p class="text-grey text-center text-sm md:text-base leading-loose pt-8">We're proud to be one of Sydney's most trusted roofing companies. Whether you need a repair, a replacement, or just some expert advice, we're here to help. Contact us today to learn more about what we can do for you.</p>
 
         <div class="flex flex-wrap gap-y-4 mt-20">
-            <div class="w-full md:w-1/2 lg:w-1/3 px-2 flex flex-wrap gap-y-4">
+            <div class="testimonialSlider w-full lg:w-1/2 xl:w-1/3 px-2 flex flex-wrap gap-y-4">
                 <div class="border border-light rounded-lg p-6">
                     <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
@@ -464,7 +464,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2 lg:w-1/3 px-2 flex flex-wrap gap-y-4">
+            <div class="testimonialSlider w-full lg:w-1/2 xl:w-1/3 px-2 flex flex-wrap gap-y-4">
                 <div class="border border-light rounded-lg p-6">
                     <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
@@ -523,7 +523,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2 lg:w-1/3 px-2 flex flex-wrap gap-y-4">
+            <div class="testimonialSlider w-full lg:w-1/2 xl:w-1/3 px-2 flex flex-wrap gap-y-4">
                 <div class="border border-light rounded-lg p-6">
                     <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
@@ -666,7 +666,7 @@
         </div>
 
         <div class="w-full md:w-1/2 relative">
-            <svg class="absolute w-full top-0" xmlns="http://www.w3.org/2000/svg" height="97" viewBox="0 0 378 97" fill="none">
+            <svg class="absolute w-full top-[-2px] md:hidden" xmlns="http://www.w3.org/2000/svg" height="97" viewBox="0 0 383 99" fill="none">
                 <path d="M195 96.5L0 0H383L195 96.5Z" fill="#2B2B2B" />
             </svg>
             <svg class="absolute top-0 left-0 h-full hidden md:block" width="173" viewBox="0 0 173 790" fill="none" xmlns="http://www.w3.org/2000/svg">
