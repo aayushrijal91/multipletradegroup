@@ -287,7 +287,7 @@
                 <div class="h-[470px] rounded-xl overflow-hidden relative mx-1.5">
                     <?= renderImg('service' . $key . '.jpg', 'lib', 'w-full h-full object-cover z-1') ?>
                     <div class="h-full absolute top-0 w-full p-10 flex items-end z-10 bg-black/40">
-                        <div class="w-full flex items-center justify-center border-2 border-white text-white rounded-full h-[48px] md:h-[60px] text-base md:text-2xl pointer-events-none"><?= $service ?></div>
+                        <div class="w-full flex items-center text-center justify-center border-2 border-white text-white rounded-full h-[48px] md:h-[60px] text-base md:text-2xl pointer-events-none"><?= $service ?></div>
                     </div>
                 </div>
             </div>
@@ -304,7 +304,9 @@
                 Looking for a roofing company that puts quality and customer satisfaction first? Look no further than MTG Roofing. Our team of experts are passionate about roofing, and we're dedicated to making a difference one roof at a time.
             </p>
 
-            <form action="" id="form" class="flex flex-wrap gap-y-5 mt-10 md:mt-14">
+            <form action="./src/form" id="form" class="flex flex-wrap gap-y-5 mt-10 md:mt-14" enctype="multipart/form-data">
+                <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse" />
+
                 <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -363,6 +365,9 @@
                         </svg>
                         <select class="form-control" name="service" placeholder="Email">
                             <option selected disabled>Service</option>
+                            <?php foreach ($services as $service) : ?>
+                                <option><?= $service ?></option>
+                            <?php endforeach; ?>
                         </select>
                     </div>
                 </div>
@@ -387,7 +392,7 @@
                                 </defs>
                             </svg>
 
-                            Attach
+                            <p id="file-label">Attach</p>
                         </label>
                         <input type="file" class="form-control" id="fileUpload">
                     </div>

@@ -72,6 +72,24 @@ $('#servicesSlider').slick({
     autoplay: true,
     responsive: [
         {
+            breakpoint: 1600,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "20px",
+            }
+        },
+        {
+            breakpoint: 1100,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "20px",
+            }
+        },
+        {
             breakpoint: 900,
             settings: {
                 slidesToShow: 2,
@@ -120,4 +138,13 @@ $(() => {
             ]
         })
     }
-})
+
+    $('#fileUpload').on('change', function() {
+        let file = $(this).val();
+        if (file != "") {
+            let theSplit = file.split('\\');
+            let fileName = theSplit[theSplit.length - 1];
+            $(`#file-label`).html(fileName.substring(0, 50));
+        }
+    })
+});
