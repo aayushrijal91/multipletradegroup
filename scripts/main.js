@@ -72,6 +72,15 @@ $('#servicesSlider').slick({
     autoplay: true,
     responsive: [
         {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "20px",
+            }
+        },
+        {
             breakpoint: 540,
             settings: {
                 slidesToShow: 1,

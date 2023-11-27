@@ -7,7 +7,7 @@
                         <?= renderImg('logo.png', 'logo') ?>
                     </a>
                 </div>
-                <div class="w-fit hidden md:none">
+                <div class="w-fit hidden lg:block">
                     <p class="text-xl text-white capitalize"><b>Highly Trained Team</b> of Professionals</p>
                 </div>
             </div>
@@ -32,9 +32,9 @@
 
     <section class="banner container my-16 md:mb-40">
         <div class="flex flex-wrap gap-y-12 items-center justify-between">
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2">
                 <div class="xl:w-11/12">
-                    <p class="flex flex-row justify-center md:justify-start gap-x-1 items-center text-white font-medium md:font-bold text-sm md:text-base">Consistent 5 star ratings
+                    <p class="flex flex-row justify-center lg:justify-start gap-x-1 items-center text-white font-medium md:font-bold text-sm md:text-base">Consistent 5 star ratings
                         <span><svg width="76" height="12" viewBox="0 0 76 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.5721 3.98043L8.03214 3.46643L6.44814 0.258434C6.40226 0.179792 6.33657 0.114549 6.25761 0.0692047C6.17865 0.0238608 6.08919 0 5.99815 0C5.9071 0 5.81764 0.0238608 5.73868 0.0692047C5.65972 0.114549 5.59403 0.179792 5.54814 0.258434L3.96814 3.46643L0.428145 3.98043C0.335795 3.99384 0.249041 4.03283 0.177698 4.09299C0.106354 4.15314 0.0532684 4.23206 0.0244461 4.32081C-0.00437615 4.40957 -0.0077847 4.50462 0.0146061 4.59521C0.0369969 4.68581 0.0842934 4.76832 0.151145 4.83343L2.71315 7.33343L2.10715 10.8594C2.09132 10.9515 2.10158 11.0461 2.13676 11.1326C2.17194 11.219 2.23063 11.2939 2.30619 11.3488C2.38175 11.4036 2.47116 11.4362 2.56429 11.4429C2.65742 11.4495 2.75056 11.43 2.83314 11.3864L6.00014 9.71843L9.16714 11.3834C9.23856 11.4214 9.31828 11.4409 9.39915 11.4404C9.47201 11.4406 9.54403 11.4248 9.61016 11.3942C9.67629 11.3637 9.73494 11.319 9.78199 11.2633C9.82905 11.2077 9.86338 11.1425 9.88258 11.0722C9.90178 11.0019 9.90539 10.9283 9.89314 10.8564L9.28714 7.33043L11.8491 4.83043C11.916 4.76532 11.9633 4.68281 11.9857 4.59221C12.0081 4.50162 12.0047 4.40657 11.9758 4.31781C11.947 4.22906 11.8939 4.15014 11.8226 4.08999C11.7512 4.02983 11.6645 3.99084 11.5721 3.97743V3.98043Z" fill="#FFC100" />
                                 <path d="M27.5721 3.98043L24.0321 3.46643L22.4481 0.258434C22.4023 0.179792 22.3366 0.114549 22.2576 0.0692047C22.1787 0.0238608 22.0892 0 21.9981 0C21.9071 0 21.8176 0.0238608 21.7387 0.0692047C21.6597 0.114549 21.594 0.179792 21.5481 0.258434L19.9681 3.46643L16.4281 3.98043C16.3358 3.99384 16.249 4.03283 16.1777 4.09299C16.1064 4.15314 16.0533 4.23206 16.0244 4.32081C15.9956 4.40957 15.9922 4.50462 16.0146 4.59521C16.037 4.68581 16.0843 4.76832 16.1511 4.83343L18.7131 7.33343L18.1071 10.8594C18.0913 10.9515 18.1016 11.0461 18.1368 11.1326C18.1719 11.219 18.2306 11.2939 18.3062 11.3488C18.3818 11.4036 18.4712 11.4362 18.5643 11.4429C18.6574 11.4495 18.7506 11.43 18.8331 11.3864L22.0001 9.71843L25.1671 11.3834C25.2386 11.4214 25.3183 11.4409 25.3991 11.4404C25.472 11.4406 25.544 11.4248 25.6102 11.3942C25.6763 11.3637 25.7349 11.319 25.782 11.2633C25.8291 11.2077 25.8634 11.1425 25.8826 11.0722C25.9018 11.0019 25.9054 10.9283 25.8931 10.8564L25.2871 7.33043L27.8491 4.83043C27.916 4.76532 27.9633 4.68281 27.9857 4.59221C28.0081 4.50162 28.0047 4.40657 27.9758 4.31781C27.947 4.22906 27.8939 4.15014 27.8226 4.08999C27.7512 4.02983 27.6645 3.99084 27.5721 3.97743V3.98043Z" fill="#FFC100" />
@@ -46,17 +46,17 @@
                         across the board
                     </p>
 
-                    <h1 class="capitalize text-dark text-45 md:text-65 leading-none font-articulat-heavy text-center md:text-start pt-5"><span class="text-white">Leading Roofing Experts With</span> Over 30 Years combined experience</h1>
+                    <h1 class="capitalize text-dark text-45 md:text-65 leading-none font-articulat-heavy text-center lg:text-start pt-5"><span class="text-white">Leading Roofing Experts With</span> Over 30 Years combined experience</h1>
 
-                    <p class="text-sm md:text-base text-center md:text-start text-white pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
+                    <p class="text-sm md:text-base text-center lg:text-start text-white pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
 
-                    <div class="flex justify-center md:justify-start">
+                    <div class="flex justify-center lg:justify-start">
                         <a href="#form" class="rounded-full bg-white px-10 md:px-16 text-primary text-lg font-bold inline-flex justify-center items-center h-[60px] mt-6">Book Today</a>
                     </div>
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2">
                 <div id="bannerSlider">
                     <div>
                         <div class="h-[480px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
@@ -129,7 +129,7 @@
 <section class="bg-white pt-8 pb-28">
     <div class="container">
         <div class="flex flex-wrap gap-y-4">
-            <div class="w-full md:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta1.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -156,7 +156,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta2.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -177,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta3.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -206,10 +206,10 @@
     </div>
 </section>
 
-<section class="trusted pt-16 md:py-60">
+<section class="trusted pt-16 md:pt-32 lg:py-60">
     <div class="container">
         <div class="flex flex-wrap items-center justify-between">
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2">
                 <div class="xl:w-11/12">
                     <p class="flex flex-row justify-center md:justify-start gap-x-1 items-center text-white font-medium md:font-bold text-sm md:text-base">Consistent 5 star ratings
                         <span><svg width="76" height="12" viewBox="0 0 76 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -236,15 +236,16 @@
     </div>
 
     <?= renderImg('trusted.png', 'lib', "w-full md:hidden") ?>
+    <?= renderImg('trusted.png', 'background', "w-full hidden md:block lg:hidden") ?>
 </section>
 
 <section class="bg-[#202020] py-5">
     <div class="container">
         <div class="flex flex-wrap justify-between items-center gap-y-">
-            <div class="hidden md:block w-1/2">
+            <div class="hidden lg:block w-1/2">
                 <p class="text-white capitalize text-2xl font-bold">We Only work with trusted brands</p>
             </div>
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2">
                 <div id="brandSlider">
                     <div><?= renderImg('brand1.png', 'logo') ?></div>
                     <div><?= renderImg('brand2.png', 'logo') ?></div>
@@ -296,7 +297,7 @@
 
 <section class="form bg-white pt-5" id="form">
     <div class="container">
-        <div class="bg-white border border-[#e8e8e8] rounded-[40px] py-14 md:pt-20 md:px-14">
+        <div class="bg-white border border-[#e8e8e8] rounded-[40px] py-14 md:pt-20 md:px-7 lg:px-14">
             <h2 class="capitalize font-articulat-heavy text-4xl md:text-65 text-center leading-none text-dark"><span class="text-primary">We Can beat</span> Any written quote<span class="font-articulat">*</span></h2>
 
             <p class="text-center text-grey pt-4">
@@ -586,10 +587,10 @@
 
 <div class="container pb-16 md:pb-28">
     <section class="assessment rounded-[40px] md:rounded-[70px] bg-dark-grey overflow-hidden flex flex-wrap">
-        <div class="w-full md:w-1/2 flex justify-center md:justify-end items-center py-10">
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end items-center py-10">
             <div class="w-11/12 xl:w-10/12">
-                <h2 class="capitalize font-articulat-heavy text-45 md:text-65 leading-none text-white text-center md:text-start"><span class="text-primary">Free Onsite quotes</span> & assessments</h2>
-                <p class="text-white capitalize text-xl text-center md:text-start font-bold py-5 md:py-6">Our frequently asked questions</p>
+                <h2 class="capitalize font-articulat-heavy text-45 md:text-65 leading-none text-white text-center lg:text-start"><span class="text-primary">Free Onsite quotes</span> & assessments</h2>
+                <p class="text-white capitalize text-xl text-center lg:text-start font-bold py-5 md:py-6">Our frequently asked questions</p>
 
                 <div class="flex flex-col gap-y-5 accordion">
                     <div class="accordion-card active rounded-2xl bg-tertiary p-5 text-white">
@@ -665,11 +666,11 @@
             </div>
         </div>
 
-        <div class="w-full md:w-1/2 relative">
+        <div class="w-full lg:w-1/2 relative">
             <svg class="absolute w-full top-[-2px] md:hidden" xmlns="http://www.w3.org/2000/svg" height="97" viewBox="0 0 383 99" fill="none">
                 <path d="M195 96.5L0 0H383L195 96.5Z" fill="#2B2B2B" />
             </svg>
-            <svg class="absolute top-0 left-0 h-full hidden md:block" width="173" viewBox="0 0 173 790" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="absolute top-0 left-0 h-full hidden lg:block" width="173" viewBox="0 0 173 790" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M172.5 450.5L0 841V0.5L172.5 450.5Z" fill="#2B2B2B" />
             </svg>
             <?= renderImg('assessment.jpg', 'lib', 'h-full w-full object-cover') ?>
