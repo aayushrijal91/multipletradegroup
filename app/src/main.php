@@ -1,13 +1,13 @@
 <header>
     <nav class="container">
-        <div class="flex flex-wrap justify-between items-center">
-            <div class="w-fit flex flex-wrap items-center gap-x-16">
+        <div class="flex flex-wrap justify-center md:justify-between items-center gap-y-5">
+            <div class="w-fit flex flex-wrap justify-center items-center gap-x-16">
                 <div class="w-fit bg-white p-7 rounded-b-[75px]">
                     <a href="./" class="">
                         <?= renderImg('logo.png', 'logo') ?>
                     </a>
                 </div>
-                <div class="w-fit">
+                <div class="w-fit hidden md:none">
                     <p class="text-xl text-white capitalize"><b>Highly Trained Team</b> of Professionals</p>
                 </div>
             </div>
@@ -30,11 +30,11 @@
         </div>
     </nav>
 
-    <section class="banner container mt-16 mb-40">
-        <div class="flex flex-wrap items-center justify-between">
-            <div class="w-1/2">
+    <section class="banner container my-16 md:mb-40">
+        <div class="flex flex-wrap gap-y-12 items-center justify-between">
+            <div class="w-full md:w-1/2">
                 <div class="xl:w-11/12">
-                    <p class="flex flex-row gap-x-1 items-center text-white font-bold">Consistent 5 star ratings
+                    <p class="flex flex-row justify-center md:justify-start gap-x-1 items-center text-white font-medium md:font-bold text-sm md:text-base">Consistent 5 star ratings
                         <span><svg width="76" height="12" viewBox="0 0 76 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.5721 3.98043L8.03214 3.46643L6.44814 0.258434C6.40226 0.179792 6.33657 0.114549 6.25761 0.0692047C6.17865 0.0238608 6.08919 0 5.99815 0C5.9071 0 5.81764 0.0238608 5.73868 0.0692047C5.65972 0.114549 5.59403 0.179792 5.54814 0.258434L3.96814 3.46643L0.428145 3.98043C0.335795 3.99384 0.249041 4.03283 0.177698 4.09299C0.106354 4.15314 0.0532684 4.23206 0.0244461 4.32081C-0.00437615 4.40957 -0.0077847 4.50462 0.0146061 4.59521C0.0369969 4.68581 0.0842934 4.76832 0.151145 4.83343L2.71315 7.33343L2.10715 10.8594C2.09132 10.9515 2.10158 11.0461 2.13676 11.1326C2.17194 11.219 2.23063 11.2939 2.30619 11.3488C2.38175 11.4036 2.47116 11.4362 2.56429 11.4429C2.65742 11.4495 2.75056 11.43 2.83314 11.3864L6.00014 9.71843L9.16714 11.3834C9.23856 11.4214 9.31828 11.4409 9.39915 11.4404C9.47201 11.4406 9.54403 11.4248 9.61016 11.3942C9.67629 11.3637 9.73494 11.319 9.78199 11.2633C9.82905 11.2077 9.86338 11.1425 9.88258 11.0722C9.90178 11.0019 9.90539 10.9283 9.89314 10.8564L9.28714 7.33043L11.8491 4.83043C11.916 4.76532 11.9633 4.68281 11.9857 4.59221C12.0081 4.50162 12.0047 4.40657 11.9758 4.31781C11.947 4.22906 11.8939 4.15014 11.8226 4.08999C11.7512 4.02983 11.6645 3.99084 11.5721 3.97743V3.98043Z" fill="#FFC100" />
                                 <path d="M27.5721 3.98043L24.0321 3.46643L22.4481 0.258434C22.4023 0.179792 22.3366 0.114549 22.2576 0.0692047C22.1787 0.0238608 22.0892 0 21.9981 0C21.9071 0 21.8176 0.0238608 21.7387 0.0692047C21.6597 0.114549 21.594 0.179792 21.5481 0.258434L19.9681 3.46643L16.4281 3.98043C16.3358 3.99384 16.249 4.03283 16.1777 4.09299C16.1064 4.15314 16.0533 4.23206 16.0244 4.32081C15.9956 4.40957 15.9922 4.50462 16.0146 4.59521C16.037 4.68581 16.0843 4.76832 16.1511 4.83343L18.7131 7.33343L18.1071 10.8594C18.0913 10.9515 18.1016 11.0461 18.1368 11.1326C18.1719 11.219 18.2306 11.2939 18.3062 11.3488C18.3818 11.4036 18.4712 11.4362 18.5643 11.4429C18.6574 11.4495 18.7506 11.43 18.8331 11.3864L22.0001 9.71843L25.1671 11.3834C25.2386 11.4214 25.3183 11.4409 25.3991 11.4404C25.472 11.4406 25.544 11.4248 25.6102 11.3942C25.6763 11.3637 25.7349 11.319 25.782 11.2633C25.8291 11.2077 25.8634 11.1425 25.8826 11.0722C25.9018 11.0019 25.9054 10.9283 25.8931 10.8564L25.2871 7.33043L27.8491 4.83043C27.916 4.76532 27.9633 4.68281 27.9857 4.59221C28.0081 4.50162 28.0047 4.40657 27.9758 4.31781C27.947 4.22906 27.8939 4.15014 27.8226 4.08999C27.7512 4.02983 27.6645 3.99084 27.5721 3.97743V3.98043Z" fill="#FFC100" />
@@ -45,12 +45,18 @@
                         </span>
                         across the board
                     </p>
-                    <h1 class="capitalize text-dark text-65 leading-none font-articulat-heavy pt-5"><span class="text-white">Leading Roofing Experts With</span> Over 30 Years combined experience</h1>
-                    <p class="text-white pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
-                    <a href="#form" class="rounded-full bg-white px-16 text-primary text-lg font-bold inline-flex justify-center items-center h-[60px] mt-6">Book Today</a>
+
+                    <h1 class="capitalize text-dark text-45 md:text-65 leading-none font-articulat-heavy text-center md:text-start pt-5"><span class="text-white">Leading Roofing Experts With</span> Over 30 Years combined experience</h1>
+
+                    <p class="text-sm md:text-base text-center md:text-start text-white pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
+
+                    <div class="flex justify-center md:justify-start">
+                        <a href="#form" class="rounded-full bg-white px-10 md:px-16 text-primary text-lg font-bold inline-flex justify-center items-center h-[60px] mt-6">Book Today</a>
+                    </div>
                 </div>
             </div>
-            <div class="w-1/2">
+
+            <div class="w-full md:w-1/2">
                 <div id="bannerSlider">
                     <div>
                         <div class="h-[480px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
@@ -73,7 +79,7 @@
                                 </div>
 
                                 <?= renderImg('triangle.png', 'lib', 'w-full') ?>
-                                <div class="bg-secondary p-5 text-center">
+                                <div class="bg-[#0da0ff] p-5 text-center">
                                     <p class="text-2xl text-white font-extrabold leading-none">Emergency<br />Availability 24/7</p>
                                 </div>
                             </div>
@@ -99,7 +105,7 @@
                                 </div>
 
                                 <?= renderImg('triangle.png', 'lib', 'w-full') ?>
-                                <div class="bg-secondary p-5 text-center">
+                                <div class="bg-[#0da0ff] p-5 text-center">
                                     <p class="text-2xl text-white font-extrabold leading-none">Free Onsite Quotes &amp; Assessments</p>
                                 </div>
                             </div>
@@ -123,7 +129,7 @@
 <section class="bg-white pt-8 pb-28">
     <div class="container">
         <div class="flex flex-wrap gap-y-4">
-            <div class="w-1/3 px-2">
+            <div class="w-full md:w-1/3 px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta1.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -143,14 +149,14 @@
                         </div>
 
                         <?= renderImg('triangle.png', 'lib', 'w-full') ?>
-                        <div class="bg-secondary py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
+                        <div class="bg-[#0da0ff] py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
                             <p class="text-2xl text-white font-extrabold leading-none capitalize">No Hidden Cost</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="w-1/3 px-2">
+            <div class="w-full md:w-1/3 px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta2.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -164,14 +170,14 @@
                         </div>
 
                         <?= renderImg('triangle.png', 'lib', 'w-full') ?>
-                        <div class="bg-secondary py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
+                        <div class="bg-[#0da0ff] py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
                             <p class="text-2xl text-white font-extrabold leading-none capitalize">We will fix it the<br /> first time</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="w-1/3 px-2">
+            <div class="w-full md:w-1/3 px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta3.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -190,7 +196,7 @@
                         </div>
 
                         <?= renderImg('triangle.png', 'lib', 'w-full') ?>
-                        <div class="bg-secondary py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
+                        <div class="bg-[#0da0ff] py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
                             <p class="text-2xl text-white font-extrabold leading-none capitalize">30 Year warranty on all<br /> first time</p>
                         </div>
                     </div>
@@ -200,12 +206,12 @@
     </div>
 </section>
 
-<section class="trusted py-60">
+<section class="trusted pt-16 md:py-60">
     <div class="container">
         <div class="flex flex-wrap items-center justify-between">
-            <div class="w-1/2">
+            <div class="w-full md:w-1/2">
                 <div class="xl:w-11/12">
-                    <p class="flex flex-row gap-x-1 items-center text-white font-bold">Consistent 5 star ratings
+                    <p class="flex flex-row justify-center md:justify-start gap-x-1 items-center text-white font-medium md:font-bold text-sm md:text-base">Consistent 5 star ratings
                         <span><svg width="76" height="12" viewBox="0 0 76 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.5721 3.98043L8.03214 3.46643L6.44814 0.258434C6.40226 0.179792 6.33657 0.114549 6.25761 0.0692047C6.17865 0.0238608 6.08919 0 5.99815 0C5.9071 0 5.81764 0.0238608 5.73868 0.0692047C5.65972 0.114549 5.59403 0.179792 5.54814 0.258434L3.96814 3.46643L0.428145 3.98043C0.335795 3.99384 0.249041 4.03283 0.177698 4.09299C0.106354 4.15314 0.0532684 4.23206 0.0244461 4.32081C-0.00437615 4.40957 -0.0077847 4.50462 0.0146061 4.59521C0.0369969 4.68581 0.0842934 4.76832 0.151145 4.83343L2.71315 7.33343L2.10715 10.8594C2.09132 10.9515 2.10158 11.0461 2.13676 11.1326C2.17194 11.219 2.23063 11.2939 2.30619 11.3488C2.38175 11.4036 2.47116 11.4362 2.56429 11.4429C2.65742 11.4495 2.75056 11.43 2.83314 11.3864L6.00014 9.71843L9.16714 11.3834C9.23856 11.4214 9.31828 11.4409 9.39915 11.4404C9.47201 11.4406 9.54403 11.4248 9.61016 11.3942C9.67629 11.3637 9.73494 11.319 9.78199 11.2633C9.82905 11.2077 9.86338 11.1425 9.88258 11.0722C9.90178 11.0019 9.90539 10.9283 9.89314 10.8564L9.28714 7.33043L11.8491 4.83043C11.916 4.76532 11.9633 4.68281 11.9857 4.59221C12.0081 4.50162 12.0047 4.40657 11.9758 4.31781C11.947 4.22906 11.8939 4.15014 11.8226 4.08999C11.7512 4.02983 11.6645 3.99084 11.5721 3.97743V3.98043Z" fill="#FFC100" />
                                 <path d="M27.5721 3.98043L24.0321 3.46643L22.4481 0.258434C22.4023 0.179792 22.3366 0.114549 22.2576 0.0692047C22.1787 0.0238608 22.0892 0 21.9981 0C21.9071 0 21.8176 0.0238608 21.7387 0.0692047C21.6597 0.114549 21.594 0.179792 21.5481 0.258434L19.9681 3.46643L16.4281 3.98043C16.3358 3.99384 16.249 4.03283 16.1777 4.09299C16.1064 4.15314 16.0533 4.23206 16.0244 4.32081C15.9956 4.40957 15.9922 4.50462 16.0146 4.59521C16.037 4.68581 16.0843 4.76832 16.1511 4.83343L18.7131 7.33343L18.1071 10.8594C18.0913 10.9515 18.1016 11.0461 18.1368 11.1326C18.1719 11.219 18.2306 11.2939 18.3062 11.3488C18.3818 11.4036 18.4712 11.4362 18.5643 11.4429C18.6574 11.4495 18.7506 11.43 18.8331 11.3864L22.0001 9.71843L25.1671 11.3834C25.2386 11.4214 25.3183 11.4409 25.3991 11.4404C25.472 11.4406 25.544 11.4248 25.6102 11.3942C25.6763 11.3637 25.7349 11.319 25.782 11.2633C25.8291 11.2077 25.8634 11.1425 25.8826 11.0722C25.9018 11.0019 25.9054 10.9283 25.8931 10.8564L25.2871 7.33043L27.8491 4.83043C27.916 4.76532 27.9633 4.68281 27.9857 4.59221C28.0081 4.50162 28.0047 4.40657 27.9758 4.31781C27.947 4.22906 27.8939 4.15014 27.8226 4.08999C27.7512 4.02983 27.6645 3.99084 27.5721 3.97743V3.98043Z" fill="#FFC100" />
@@ -216,22 +222,29 @@
                         </span>
                         across the board
                     </p>
-                    <h2 class="capitalize text-dark text-65 leading-none font-articulat-heavy pt-5"><span class="text-white">We're Proud To Be One Of</span> Sydney's Most Trusted Roofing Companies</h2>
-                    <p class="text-white pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
-                    <a href="tel:<?= $phone_number ?>" class="rounded-full bg-white px-12 text-primary text-lg font-bold inline-flex justify-center items-center h-[60px] mt-6"><?= $phone_number ?></a>
+
+                    <h2 class="capitalize text-dark text-45 md:text-65 text-center md:text-start leading-none font-articulat-heavy pt-5"><span class="text-white">We're Proud To Be One Of</span> Sydney's Most Trusted Roofing Companies</h2>
+
+                    <p class="text-white text-sm md:text-base text-center md:text-start pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
+
+                    <div class="flex justify-center md:justify-start">
+                        <a href="tel:<?= $phone_number ?>" class="rounded-full bg-white px-12 text-primary text-lg font-bold inline-flex justify-center items-center h-[60px] mt-6"><?= $phone_number ?></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <?= renderImg('trusted.png', 'lib', "w-full md:hidden") ?>
 </section>
 
 <section class="bg-[#202020] py-5">
     <div class="container">
         <div class="flex flex-wrap justify-between items-center gap-y-">
-            <div class="w-1/2">
+            <div class="hidden md:block w-1/2">
                 <p class="text-white capitalize text-2xl font-bold">We Only work with trusted brands</p>
             </div>
-            <div class="w-1/2">
+            <div class="w-full md:w-1/2">
                 <div id="brandSlider">
                     <div><?= renderImg('brand1.png', 'logo') ?></div>
                     <div><?= renderImg('brand2.png', 'logo') ?></div>
@@ -245,9 +258,10 @@
 </section>
 
 <section class="bg-[#2B2B2B] pb-5">
-    <div class="container py-20 text-white text-center">
-        <h2 class="capitalize font-bold text-65 leading-none">Quality and customer satisfaction first</h2>
+    <div class="container py-16 md:py-20 text-white text-center">
+        <h2 class="capitalize font-bold text-45 md:text-65 leading-none">Quality and customer satisfaction first</h2>
         <p class="py-5 font-thin">Our team of experts are passionate about roofing, and we're dedicated to making a difference one roof at a time.</p>
+
         <div class="flex flex-wrap justify-center gap-x-3">
             <div class="w-fit">
                 <a href="tel:<?= $phone_number ?>" class="rounded-full bg-primary px-5 text-white text-lg font-bold inline-flex justify-center items-center gap-x-3 h-[60px]">
@@ -272,7 +286,7 @@
                 <div class="h-[470px] rounded-xl overflow-hidden relative mx-1.5">
                     <?= renderImg('service' . $key . '.jpg', 'lib', 'w-full h-full object-cover z-1') ?>
                     <div class="h-full absolute top-0 w-full p-10 flex items-end z-10 bg-black/40">
-                        <div class="w-full flex items-center justify-center border-2 border-white text-white rounded-full h-[60px] text-2xl pointer-events-none"><?= $service ?></div>
+                        <div class="w-full flex items-center justify-center border-2 border-white text-white rounded-full h-[48px] md:h-[60px] text-base md:text-2xl pointer-events-none"><?= $service ?></div>
                     </div>
                 </div>
             </div>
@@ -282,14 +296,15 @@
 
 <section class="form bg-white pt-5" id="form">
     <div class="container">
-        <div class="bg-white border border-[#e8e8e8] rounded-[40px] pt-20 pb-14 px-14">
-            <h2 class="capitalize font-articulat-heavy text-65 text-center leading-none text-dark"><span class="text-primary">We Can beat</span> Any written quote<span class="font-articulat">*</span></h2>
+        <div class="bg-white border border-[#e8e8e8] rounded-[40px] py-14 md:pt-20 md:px-14">
+            <h2 class="capitalize font-articulat-heavy text-4xl md:text-65 text-center leading-none text-dark"><span class="text-primary">We Can beat</span> Any written quote<span class="font-articulat">*</span></h2>
+
             <p class="text-center text-grey pt-4">
                 Looking for a roofing company that puts quality and customer satisfaction first? Look no further than MTG Roofing. Our team of experts are passionate about roofing, and we're dedicated to making a difference one roof at a time.
             </p>
 
-            <form action="" id="form" class="flex flex-wrap gap-y-5 mt-14">
-                <div class="w-1/2 px-2">
+            <form action="" id="form" class="flex flex-wrap gap-y-5 mt-10 md:mt-14">
+                <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                             <g clip-path="url(#clip0_33_64)">
@@ -306,7 +321,7 @@
                     </div>
                 </div>
 
-                <div class="w-1/2 px-2">
+                <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                             <g clip-path="url(#clip0_33_64)">
@@ -323,7 +338,7 @@
                     </div>
                 </div>
 
-                <div class="w-1/2 px-2">
+                <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                             <g clip-path="url(#clip0_33_64)">
@@ -340,7 +355,7 @@
                     </div>
                 </div>
 
-                <div class="w-1/2 px-2">
+                <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                             <path d="M14.7069 3.13447L12.8106 5.0308L10.5286 2.7488L12.4249 0.85247C11.986 0.723084 11.5276 0.67197 11.0709 0.70147C10.2282 0.771446 9.43755 1.13814 8.83975 1.73631C8.24195 2.33447 7.87574 3.12532 7.80628 3.96814C7.77663 4.42471 7.82763 4.88293 7.95695 5.3218L1.21428 10.9441C1.11142 11.0299 1.02755 11.1362 0.968033 11.2562C0.908516 11.3762 0.874652 11.5073 0.8686 11.6411C0.862547 11.7749 0.884439 11.9085 0.93288 12.0334C0.98132 12.1583 1.05525 12.2717 1.14995 12.3665L3.19295 14.4095C3.28768 14.5042 3.40111 14.5781 3.52599 14.6265C3.65088 14.675 3.78448 14.6969 3.9183 14.6908C4.05211 14.6848 4.1832 14.6509 4.3032 14.5914C4.4232 14.5319 4.52949 14.448 4.61528 14.3451L10.2393 7.60247C10.6782 7.73179 11.1364 7.78279 11.5929 7.75314C12.4355 7.6833 13.2259 7.31693 13.8237 6.71916C14.4216 6.1214 14.788 5.33098 14.8579 4.48847C14.8874 4.03177 14.8363 3.57345 14.7069 3.13447Z" stroke="#212121" stroke-opacity="0.48" stroke-width="0.8" stroke-miterlimit="10" stroke-linecap="square" />
@@ -357,7 +372,7 @@
                     </div>
                 </div>
 
-                <div class="w-1/3 px-2">
+                <div class="w-full md:w-1/3 px-2">
                     <div class="form-group">
                         <label for="fileUpload" class="h-[62px] w-full flex justify-center gap-x-2 items-center text-black/30">
                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -377,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="w-2/3 px-2">
+                <div class="w-full md:w-2/3 px-2">
                     <button type="submit" class="h-[62px] text-white bg-primary w-full rounded-[16px]">Submit</button>
                 </div>
             </form>
@@ -385,15 +400,15 @@
     </div>
 </section>
 
-<section class="bg-white py-32">
+<section class="bg-white py-20 md:py-32">
     <div class="container">
-        <h2 class="capitalize font-articulat-heavy text-65 text-center leading-none text-black"><span class="text-primary">With years of experience</span> and countless satisfied customers</h2>
-        <p class="text-grey text-center leading-loose pt-8">We're proud to be one of Sydney's most trusted roofing companies. Whether you need a repair, a replacement, or just some expert advice, we're here to help. Contact us today to learn more about what we can do for you.</p>
+        <h2 class="capitalize font-articulat-heavy text-45 md:text-65 text-center leading-none text-black"><span class="text-primary">With years of experience</span> and countless satisfied customers</h2>
+        <p class="text-grey text-center text-sm md:text-base leading-loose pt-8">We're proud to be one of Sydney's most trusted roofing companies. Whether you need a repair, a replacement, or just some expert advice, we're here to help. Contact us today to learn more about what we can do for you.</p>
 
         <div class="flex flex-wrap gap-y-4 mt-20">
             <div class="w-full md:w-1/2 lg:w-1/3 px-2 flex flex-wrap gap-y-4">
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
                             <p>“ I am a Strata manager who has been using the MTG team for the last 6 months. They have always been punctual, reasonably priced ”</p>
                         </div>
@@ -404,14 +419,14 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">James Albert</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">James Albert</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <p class="text-lg font-bold text-secondary">“Great experience”</p>
                         <div class="text-dark-teal">
                             <p>I had a great experience working with Multiple Trade Group. Their team was very professional and knowledgeable, and they did an excellent job installing my new roof.</p>
@@ -424,14 +439,14 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Anthony Daaboul</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Anthony Daaboul</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
                             <p>They arrived on time, figured out what had caused the leaks, and fixed everything promptly. Efficient and trustworthy.</p>
                         </div>
@@ -442,8 +457,8 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Elizabeth Wilson</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Elizabeth Wilson</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
@@ -451,7 +466,7 @@
 
             <div class="w-full md:w-1/2 lg:w-1/3 px-2 flex flex-wrap gap-y-4">
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
                             <p>The guys at Multi Trade Group have gone above and beyond to resolve my roof leaking, GIO wanted an arm and a leg to remidiate the faults which caused a roof leak</p>
                         </div>
@@ -462,14 +477,14 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Danny</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Danny</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <p class="text-lg font-bold text-secondary">“Excellent Job”</p>
                         <div class="text-dark-teal">
                             <p>“Multiple Trade Group did an excellent job on my roof. They were very professional and knowledgeable, and their team worked quickly and efficiently. I was very impressed with their attention to detail and commitment to quality. I would definitely recommend them to anyone looking for a reliable and trustworthy roofing company.”</p>
@@ -481,14 +496,14 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Massimo Mascolo</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Massimo Mascolo</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <p class="text-lg font-bold text-secondary">“Amazing Service!”</p>
                         <div class="text-dark-teal">
                             <p>“dolor neque tempor odio, id pellentesque leo purus vel ante.</p>
@@ -501,8 +516,8 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Tom Green</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Tom Green</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
@@ -510,7 +525,7 @@
 
             <div class="w-full md:w-1/2 lg:w-1/3 px-2 flex flex-wrap gap-y-4">
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
                             <p>I had a roof leak that 3 other roofers could not diagnose. Multiple trade group rectified this issue on the first attempt. Professional</p>
                         </div>
@@ -521,14 +536,14 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Anthony</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Anthony</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <p class="text-lg font-bold text-secondary">“Amazing Service!”</p>
                         <div class="text-dark-teal">
                             <p>I contacted two other roofing companies prior to contacting Multiple Trade Group which didn’t even turn up. Multiple Trade Group were highly experienced, very professional and resolved our roof leaks on their first attempt. I would
@@ -541,14 +556,14 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Tom Green</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Tom Green</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="border border-light rounded-lg p-6">
-                    <div class="description">
+                    <div class="description text-sm md:text-base">
                         <div class="text-dark-teal">
                             <p> Thank you for taking the time to fix our roof. For the last couple of years I've been looking for someone to help us with it. </p>
                         </div>
@@ -559,8 +574,8 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-xl">Tracy</p>
-                            <p class="text-light-teal">Customer</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Tracy</p>
+                            <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
                 </div>
@@ -569,23 +584,23 @@
     </div>
 </section>
 
-<div class="container pb-28">
-    <section class="assessment rounded-[70px] bg-dark-grey overflow-hidden flex flex-wrap">
-        <div class="w-1/2 flex justify-end items-center py-10">
-            <div class="xl:w-10/12">
-                <h2 class="capitalize font-articulat-heavy text-65 leading-none text-white"><span class="text-primary">Free Onsite quotes</span> & assessments</h2>
-                <p class="text-white capitalize text-xl font-bold py-6">Our frequently asked questions</p>
+<div class="container pb-16 md:pb-28">
+    <section class="assessment rounded-[40px] md:rounded-[70px] bg-dark-grey overflow-hidden flex flex-wrap">
+        <div class="w-full md:w-1/2 flex justify-center md:justify-end items-center py-10">
+            <div class="w-11/12 xl:w-10/12">
+                <h2 class="capitalize font-articulat-heavy text-45 md:text-65 leading-none text-white text-center md:text-start"><span class="text-primary">Free Onsite quotes</span> & assessments</h2>
+                <p class="text-white capitalize text-xl text-center md:text-start font-bold py-5 md:py-6">Our frequently asked questions</p>
 
                 <div class="flex flex-col gap-y-5 accordion">
                     <div class="accordion-card active rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-wrap justify-between question">
+                        <div class="flex flex-row justify-between question">
                             <div class="w-fit grow">
                                 <p class="font-bold">Why do i need a licensed roofer?</p>
                             </div>
                             <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
                                 <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                </svg>  
+                                </svg>
                             </div>
                         </div>
                         <div class="answer description text-sm pt-4">
@@ -594,14 +609,16 @@
                     </div>
 
                     <div class="accordion-card rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-wrap justify-between question">
+                        <div class="flex flex-row justify-between question">
                             <div class="w-fit grow">
                                 <p class="font-bold">How often should I get a roof inspection done?</p>
                             </div>
-                            <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
-                                <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                </svg>  
+                            <div class="w-fit">
+                                <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
+                                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                         <div class="answer description text-sm pt-4">
@@ -610,14 +627,16 @@
                     </div>
 
                     <div class="accordion-card rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-wrap justify-between question">
+                        <div class="flex flex-row justify-between question">
                             <div class="w-fit grow">
                                 <p class="font-bold">Difference between a roof repair and a roof replacement?</p>
                             </div>
-                            <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
-                                <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                </svg>  
+                            <div class="w-fit">
+                                <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
+                                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                         <div class="answer description text-sm pt-4">
@@ -626,14 +645,16 @@
                     </div>
 
                     <div class="accordion-card rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-wrap justify-between question">
+                        <div class="flex flex-row justify-between question">
                             <div class="w-fit grow">
                                 <p class="font-bold">Do I get a warranty on a new roof?</p>
                             </div>
-                            <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
-                                <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                </svg>  
+                            <div>
+                                <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
+                                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                         <div class="answer description text-sm pt-4">
@@ -644,8 +665,11 @@
             </div>
         </div>
 
-        <div class="w-1/2 relative">
-            <svg class="absolute top-0 left-0 h-full" width="173" viewBox="0 0 173 790" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="w-full md:w-1/2 relative">
+            <svg class="absolute w-full top-0" xmlns="http://www.w3.org/2000/svg" height="97" viewBox="0 0 378 97" fill="none">
+                <path d="M195 96.5L0 0H383L195 96.5Z" fill="#2B2B2B" />
+            </svg>
+            <svg class="absolute top-0 left-0 h-full hidden md:block" width="173" viewBox="0 0 173 790" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M172.5 450.5L0 841V0.5L172.5 450.5Z" fill="#2B2B2B" />
             </svg>
             <?= renderImg('assessment.jpg', 'lib', 'h-full w-full object-cover') ?>

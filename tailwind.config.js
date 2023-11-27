@@ -24,6 +24,7 @@ module.exports = {
         "articulat-heavy": ["articulat-heavy-cf", "sans-serif"],
       },
       fontSize: {
+        '45': '45px',
         '65': '65px'
       },
     },

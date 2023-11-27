@@ -28,12 +28,39 @@ $('#bannerSlider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '20px',
+                infinite: false,
+            }
+        }
+    ]
 });
 
 $('#brandSlider').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '20px',
+                autoplay: true,
+                speed: 2000,
+                autoplaySpeed: 0,
+                cssEase: 'linear'
+            }
+        }
+    ]
 });
 
 $('#servicesSlider').slick({
@@ -41,11 +68,23 @@ $('#servicesSlider').slick({
     slidesToScroll: 1,
     arrows: false,
     centerMode: true,
-    centerPadding: "200px"
+    centerPadding: "200px",
+    autoplay: true,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "20px",
+            }
+        }
+    ]
 });
 
 $(() => {
-    $('.accordion .accordion-card .question').on('click', function() {
+    $('.accordion .accordion-card .question').on('click', function () {
         $('.accordion .accordion-card').removeClass('active');
         $(this).parents('.accordion-card').addClass('active');
 

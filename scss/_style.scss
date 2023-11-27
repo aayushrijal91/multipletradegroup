@@ -2,9 +2,11 @@ header {
     background: linear-gradient(108deg, #0094F4 16.25%, #0073BD 101.07%);
 }
 
-section.trusted {
-    background: imgUrl('trusted.png') right bottom #0094F4;
-    background-size: contain;
+@media screen and (max-width: 540px) {
+    section.trusted {
+        background: imgUrl('trusted.png') right bottom #0094F4;
+        background-size: contain;
+    }
 }
 
 #brandSlider {
@@ -35,8 +37,9 @@ section.form {
             gap: 8px;
             padding: 0 24px;
         }
-        
-        input.form-control, select.form-control {
+
+        input.form-control,
+        select.form-control {
             height: 62px;
             padding: 8px 24px;
             outline: none;
