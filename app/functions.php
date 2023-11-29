@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "Multiple Trade Group";
-$phone_number = "1300 000 000";
+$phone_number = "1300 736 472";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
 $no_reply_email = 'info@website.com.au';

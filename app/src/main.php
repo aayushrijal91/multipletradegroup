@@ -20,7 +20,7 @@
                     <a href="tel:<?= $phone_number ?>" class="h-[60px] bg-white text-primary font-bold text-lg rounded-full flex items-center px-5 xl:px-12"><?= $phone_number ?></a>
                 </div>
                 <div class="w-fit flex flex-wrap">
-                    <a href="#" target="_blank">
+                    <a href="https://www.instagram.com/multitradegroup_/" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 2.775C15 2.775 15.36 2.78625 16.5457 2.84025C17.2593 2.84867 17.9662 2.97984 18.6352 3.228C19.1237 3.40832 19.5656 3.69588 19.9282 4.0695C20.3019 4.43218 20.5894 4.87402 20.7697 5.3625C21.0179 6.0316 21.1491 6.73841 21.1575 7.452C21.2115 8.64 21.225 9 21.225 12C21.225 15 21.2137 15.36 21.1597 16.5457C21.1513 17.2593 21.0202 17.9662 20.772 18.6352C20.5847 19.1202 20.2981 19.5606 19.9305 19.9282C19.5629 20.2958 19.1225 20.5825 18.6375 20.7697C17.9684 21.0179 17.2616 21.1491 16.548 21.1575C15.3622 21.2115 15.006 21.2227 12.0022 21.2227C8.9985 21.2227 8.64225 21.2115 7.4565 21.1575C6.74291 21.1491 6.0361 21.0179 5.367 20.7697C4.87852 20.5894 4.43668 20.3019 4.074 19.9282C3.70038 19.5656 3.41282 19.1237 3.2325 18.6352C2.98434 17.9662 2.85317 17.2593 2.84475 16.5457C2.7885 15.36 2.775 15.0037 2.775 12C2.775 8.99625 2.78625 8.64 2.84025 7.45425C2.84867 6.74066 2.97984 6.03385 3.228 5.36475C3.40898 4.87606 3.69731 4.4342 4.07175 4.07175C4.43443 3.69813 4.87627 3.41057 5.36475 3.23025C6.03385 2.98209 6.74066 2.85092 7.45425 2.8425C8.64 2.7885 9 2.775 12 2.775ZM12 0.75C8.9445 0.75 8.56125 0.76275 7.362 0.8175C6.42842 0.83728 5.5049 1.01478 4.6305 1.3425C3.88032 1.62483 3.20059 2.06707 2.6385 2.6385C2.06626 3.20037 1.62324 3.88012 1.34025 4.6305C1.01253 5.5049 0.83503 6.42842 0.81525 7.362C0.76275 8.56125 0.75 8.9445 0.75 12C0.75 15.0555 0.76275 15.4387 0.8175 16.638C0.83728 17.5716 1.01478 18.4951 1.3425 19.3695C1.62549 20.1199 2.06851 20.7996 2.64075 21.3615C3.20262 21.9337 3.88237 22.3768 4.63275 22.6597C5.50715 22.9875 6.43067 23.165 7.36425 23.1847C8.56425 23.2395 8.94675 23.2522 12.0022 23.2522C15.0577 23.2522 15.441 23.2395 16.6402 23.1847C17.5738 23.165 18.4974 22.9875 19.3717 22.6597C20.1188 22.3702 20.7972 21.928 21.3638 21.3615C21.9303 20.795 22.3724 20.1165 22.662 19.3695C22.9897 18.4951 23.1672 17.5716 23.187 16.638C23.2417 15.438 23.2545 15.0555 23.2545 12C23.2545 8.9445 23.2417 8.56125 23.187 7.362C23.1672 6.42842 22.9897 5.5049 22.662 4.6305C22.379 3.88012 21.936 3.20037 21.3637 2.6385C20.8019 2.06626 20.1221 1.62324 19.3717 1.34025C18.4974 1.01253 17.5738 0.83503 16.6402 0.81525C15.4387 0.76275 15.0555 0.75 12 0.75Z" fill="white" />
                             <path d="M12 6.22498C10.8578 6.22498 9.74125 6.56367 8.79156 7.19824C7.84187 7.8328 7.10167 8.73474 6.66457 9.78998C6.22748 10.8452 6.11311 12.0064 6.33594 13.1266C6.55877 14.2469 7.10879 15.2759 7.91644 16.0835C8.72408 16.8912 9.75309 17.4412 10.8733 17.664C11.9936 17.8868 13.1547 17.7725 14.21 17.3354C15.2652 16.8983 16.1671 16.1581 16.8017 15.2084C17.4363 14.2587 17.775 13.1422 17.775 12C17.775 10.4684 17.1665 8.99946 16.0835 7.91643C15.0005 6.83341 13.5316 6.22498 12 6.22498ZM12 15.75C11.2583 15.75 10.5333 15.53 9.91659 15.118C9.29991 14.7059 8.81926 14.1203 8.53543 13.435C8.2516 12.7498 8.17734 11.9958 8.32203 11.2684C8.46673 10.541 8.82388 9.87277 9.34833 9.34833C9.87277 8.82388 10.541 8.46672 11.2684 8.32203C11.9958 8.17734 12.7498 8.2516 13.435 8.53543C14.1203 8.81926 14.7059 9.2999 15.118 9.91659C15.53 10.5333 15.75 11.2583 15.75 12C15.75 12.9945 15.3549 13.9484 14.6516 14.6516C13.9484 15.3549 12.9945 15.75 12 15.75Z" fill="white" />
@@ -600,76 +600,43 @@
                 <h2 class="capitalize font-articulat-heavy text-45 md:text-65 leading-none text-white text-center lg:text-start"><span class="text-primary">Free Onsite quotes</span> & assessments</h2>
                 <p class="text-white capitalize text-xl text-center lg:text-start font-bold py-5 md:py-6">Our frequently asked questions</p>
 
+                <?php $faqs = [
+                    [
+                        "question" => "Why do i need a licensed roofer?",
+                        "answer" => "Having a licensed roofer is important because it ensures that the job is done professionally and meets all the necessary standards and regulations. It gives you peace of mind knowing that your roof is in capable hands.",
+                    ],
+                    [
+                        "question" => "How often should I get a roof inspection done?",
+                        "answer" => "This depends on the material of the roof. If you have a brand new color bond roof you can safely assume you will not need an inspection for over 5 years if not longer. It is common to get a roof inspection done when there is a leak, however to prevent roof damage it is recommended to get an inspection every few years.",
+                    ],
+                    [
+                        "question" => "What is the difference between a roof repair and a roof replacement?",
+                        "answer" => "A roof repair is an action done to fix a particular part of your roof or section of roof. It may include replacing a flashing, a gutter or a section of tiles or roof sheeting. A roof replacement is when the roof is stripped back to it’s bare structure and a whole new roof is installed.",
+                    ],
+                    [
+                        "question" => "Do I get a warranty on a new roof?",
+                        "answer" => "BlueScope Steel provides customers with a comprehensive warranty that safeguards against corrosion and perforation caused by weathering in the natural elements. This warranty extends for an impressive duration of up to 30 years. In addition, Multiple Trade Group is proud to offer a workmanship guarantee of up to 15 years on all new roofs and re-roofs. Our commitment to professionalism and excellence ensures that you can trust in the durability and quality of our products and services.",
+                    ],
+                ];
+                ?>
                 <div class="flex flex-col gap-y-5 accordion">
-                    <div class="accordion-card active rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-row justify-between question">
-                            <div class="w-fit grow">
-                                <p class="font-bold">Why do i need a licensed roofer?</p>
-                            </div>
-                            <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
-                                <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="answer description text-sm pt-4">
-                            <p>Having a licensed roofer is important because it ensures that the job is done professionally and meets all the necessary standards and regulations. It gives you peace of mind knowing that your roof is in capable hands.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion-card rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-row justify-between question">
-                            <div class="w-fit grow">
-                                <p class="font-bold">How often should I get a roof inspection done?</p>
-                            </div>
-                            <div class="w-fit">
+                    <?php foreach ($faqs as $index => $faq) : ?>
+                        <div class="accordion-card <?= $index === 0 ? 'active' : '' ?> rounded-2xl bg-tertiary p-5 text-white">
+                            <div class="flex flex-row justify-between question">
+                                <div class="w-fit grow">
+                                    <p class="font-bold"><?= $faq['question'] ?></p>
+                                </div>
                                 <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
                                     <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
                                     </svg>
                                 </div>
                             </div>
-                        </div>
-                        <div class="answer description text-sm pt-4">
-                            <p>Having a licensed roofer is important because it ensures that the job is done professionally and meets all the necessary standards and regulations. It gives you peace of mind knowing that your roof is in capable hands.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion-card rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-row justify-between question">
-                            <div class="w-fit grow">
-                                <p class="font-bold">Difference between a roof repair and a roof replacement?</p>
-                            </div>
-                            <div class="w-fit">
-                                <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
-                                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                    </svg>
-                                </div>
+                            <div class="answer description text-sm pt-4">
+                                <p><?= $faq['answer'] ?></p>
                             </div>
                         </div>
-                        <div class="answer description text-sm pt-4">
-                            <p>Having a licensed roofer is important because it ensures that the job is done professionally and meets all the necessary standards and regulations. It gives you peace of mind knowing that your roof is in capable hands.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion-card rounded-2xl bg-tertiary p-5 text-white">
-                        <div class="flex flex-row justify-between question">
-                            <div class="w-fit grow">
-                                <p class="font-bold">Do I get a warranty on a new roof?</p>
-                            </div>
-                            <div>
-                                <div class="arrow w-[29px] h-[29px] bg-primary rounded-full flex justify-center items-center">
-                                    <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.12689 2.00781L6.47269 7.35352L11.8184 2.00781" stroke="white" stroke-width="3" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="answer description text-sm pt-4">
-                            <p>Having a licensed roofer is important because it ensures that the job is done professionally and meets all the necessary standards and regulations. It gives you peace of mind knowing that your roof is in capable hands.</p>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
