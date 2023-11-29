@@ -130,8 +130,8 @@
 
 <section class="bg-white pt-8 pb-28">
     <div class="container">
-        <div class="flex flex-wrap gap-y-4">
-            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
+        <div class="flex flex-wrap gap-y-4" id="ctaSlider">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta1.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -158,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta2.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -179,7 +179,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-2">
                 <div class="h-[584px] relative mx-1.5 rounded-t-xl overflow-hidden flex items-end">
                     <?= renderImg('cta3.jpg', 'lib', 'absolute w-full h-full object-cover') ?>
                     <div class="relative w-full">
@@ -244,10 +244,10 @@
 <section class="bg-[#202020] py-5">
     <div class="container">
         <div class="flex flex-wrap justify-between items-center gap-y-">
-            <div class="hidden lg:block w-1/2">
+            <div class="hidden lg:block w-5/12">
                 <p class="text-white capitalize text-2xl font-bold">We Only work with trusted brands</p>
             </div>
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-7/12">
                 <div id="brandSlider">
                     <div><?= renderImg('brand1.png', 'logo') ?></div>
                     <div><?= renderImg('brand2.png', 'logo') ?></div>
@@ -282,14 +282,71 @@
     </div>
 
     <div id="servicesSlider">
-        <?php $services = ["New Roof", "Re Roofing", "Tiled Roof Repairs", "Roof Maintenance", "Roof Leaks", "Roof Leaks Detects", "Gutter Repair", "Gutter Replacement", "Gutter Installation", "Sky Light Repair", "Skylight Replacement", "Metal Roof Repair", "Commercial Roofing"]; ?>
+        <?php $services = [
+            [
+                "title" => "New Roof",
+                "description" => "Whether you're in need of a brand new roof or looking to re-roof your existing one, our team is here to help. We specialize in installing high-quality roofs that are built to last. From selecting the perfect materials to expert installation, we'll ensure your new roof or re-roofing project is a success. Trust us to provide you with a top-notch roof that will protect your home for years to come!",
+            ],
+            [
+                "title" => "Re Roofing",
+                "description" => "Whether you're in need of a brand new roof or looking to re-roof your existing one, our team is here to help. We specialize in installing high-quality roofs that are built to last. From selecting the perfect materials to expert installation, we'll ensure your new roof or re-roofing project is a success. Trust us to provide you with a top-notch roof that will protect your home for years to come!",
+            ],
+            [
+                "title" => "Tiled Roof Repairs",
+                "description" => "",
+            ],
+            [
+                "title" => "Roof Maintenance",
+                "description" => "",
+            ],
+            [
+                "title" => "Roof Leaks",
+                "description" => "When it comes to leak identification and repairs, our expert team is here to help. We’ll thoroughly inspect your roof to pinpoint the source of the leak and then provide efficient and effective repairs. Rest assured, we’ll have your roof watertight in no time!",
+            ],
+            [
+                "title" => "Roof Leaks Detects",
+                "description" => "When it comes to leak identification and repairs, our expert team is here to help. We’ll thoroughly inspect your roof to pinpoint the source of the leak and then provide efficient and effective repairs. Rest assured, we’ll have your roof watertight in no time!",
+            ],
+            [
+                "title" => "Gutter Repair",
+                "description" => "Your go-to for gutter and downpipe repair and replacement. Our skilled team ensures effective water management, protecting your property from damage. Trust us to deliver reliable solutions that keep your gutters and downpipes functioning optimally.",
+            ],
+            [
+                "title" => "Gutter Replacement",
+                "description" => "Your go-to for gutter and downpipe repair and replacement. Our skilled team ensures effective water management, protecting your property from damage. Trust us to deliver reliable solutions that keep your gutters and downpipes functioning optimally.",
+            ],
+            [
+                "title" => "Gutter Installation",
+                "description" => "",
+            ],
+            [
+                "title" => "Sky Light Repair",
+                "description" => "MTG Roofing offers comprehensive skylight solutions to enhance your space with natural light. Our skilled team specialises in skylight repair, replacement, and installation, providing expert services tailored to your needs.",
+            ],
+            [
+                "title" => "Skylight Replacement",
+                "description" => "MTG Roofing offers comprehensive skylight solutions to enhance your space with natural light. Our skilled team specialises in skylight repair, replacement, and installation, providing expert services tailored to your needs.",
+            ],
+            [
+                "title" => "Metal Roof Repair",
+                "description" => "",
+            ],
+            [
+                "title" => "Commercial Roofing",
+                "description" => "",
+            ],
+        ]; ?>
 
         <?php foreach ($services as $key => $service) : ?>
             <div>
                 <div class="h-[470px] rounded-xl overflow-hidden relative mx-1.5">
-                    <?= renderImg('service' . $key . '.jpg', 'lib', 'w-full h-full object-cover z-1') ?>
-                    <div class="h-full absolute top-0 w-full p-10 flex items-end z-10 bg-black/40">
-                        <div class="w-full flex items-center text-center justify-center border-2 border-white text-white rounded-full h-[48px] md:h-[60px] text-base md:text-2xl pointer-events-none"><?= $service ?></div>
+                    <?= renderImg('service' . $key . '.jpg', 'lib', 'w-full h-full object-cover z-1 absolute') ?>
+                    <div class="h-full w-full z-10 p-10 bg-black/40 flex flex-col justify-end text-white text-center relative group">
+                        <div class="group-hover:opacity-0 duration-200 w-full flex items-center text-center justify-center border-2 border-white text-white rounded-full h-[48px] md:h-[60px] text-base md:text-2xl pointer-events-none"><?= $service['title'] ?></div>
+                        <div class="absolute -bottom-full group-hover:bottom-0 duration-300 left-0 right-0 py-10 px-4">
+                            <p class="text-2xl font-bold"><?= $service['title'] ?></p>
+                            <p class="text-sm pt-3"><?= $service['description'] ?></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -369,7 +426,7 @@
                         <select class="form-control" name="service" required>
                             <option selected disabled>Service</option>
                             <?php foreach ($services as $service) : ?>
-                                <option><?= $service ?></option>
+                                <option><?= $service['title'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>

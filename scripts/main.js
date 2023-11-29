@@ -69,7 +69,7 @@ $('#servicesSlider').slick({
     arrows: false,
     centerMode: true,
     centerPadding: "200px",
-    autoplay: true,
+    dots: true,
     responsive: [
         {
             breakpoint: 1600,
@@ -136,6 +136,16 @@ $(() => {
                     }
                 }
             ]
+        })
+    }
+
+    if ($(window).width() < 540) {
+        $('#ctaSlider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            arrows: false,
+            centerPadding: '30px'
         })
     }
 
