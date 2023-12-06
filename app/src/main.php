@@ -363,21 +363,13 @@
                 Looking for a roofing company that puts quality and customer satisfaction first? Look no further than MTG Roofing. Our team of experts are passionate about roofing, and we're dedicated to making a difference one roof at a time.
             </p>
 
-            <form action="./src/form" id="form" class="flex flex-wrap gap-y-5 mt-10 md:mt-14" enctype="multipart/form-data">
+            <form action="./src/form.php/" method="POST" id="form" class="flex flex-wrap gap-y-5 mt-10 md:mt-14" enctype="multipart/form-data">
                 <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse" />
 
                 <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                            <g clip-path="url(#clip0_33_64)">
-                                <path d="M14.2843 7.36108V11.4444C14.2843 11.9085 14.0999 12.3537 13.7717 12.6819C13.4435 13.01 12.9984 13.1944 12.5343 13.1944H3.20096C2.73683 13.1944 2.29171 13.01 1.96352 12.6819C1.63533 12.3537 1.45096 11.9085 1.45096 11.4444V7.36108" stroke="#212121" stroke-opacity="0.48" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M14.2843 5.02767V4.44434C14.2843 3.98021 14.0999 3.53509 13.7717 3.2069C13.4435 2.87871 12.9984 2.69434 12.5343 2.69434H3.20096C2.73683 2.69434 2.29171 2.87871 1.96352 3.2069C1.63533 3.53509 1.45096 3.98021 1.45096 4.44434V5.02767L7.86762 8.52767L14.2843 5.02767Z" stroke="#212121" stroke-opacity="0.48" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_33_64">
-                                    <rect width="14" height="14" fill="white" transform="translate(0.867615 0.944336)" />
-                                </clipPath>
-                            </defs>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9d9d9d" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
                         </svg>
                         <input type="text" class="form-control" name="name" placeholder="Name" required />
                     </div>
@@ -402,16 +394,8 @@
 
                 <div class="w-full md:w-1/2 px-2">
                     <div class="form-group">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                            <g clip-path="url(#clip0_33_64)">
-                                <path d="M14.2843 7.36108V11.4444C14.2843 11.9085 14.0999 12.3537 13.7717 12.6819C13.4435 13.01 12.9984 13.1944 12.5343 13.1944H3.20096C2.73683 13.1944 2.29171 13.01 1.96352 12.6819C1.63533 12.3537 1.45096 11.9085 1.45096 11.4444V7.36108" stroke="#212121" stroke-opacity="0.48" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M14.2843 5.02767V4.44434C14.2843 3.98021 14.0999 3.53509 13.7717 3.2069C13.4435 2.87871 12.9984 2.69434 12.5343 2.69434H3.20096C2.73683 2.69434 2.29171 2.87871 1.96352 3.2069C1.63533 3.53509 1.45096 3.98021 1.45096 4.44434V5.02767L7.86762 8.52767L14.2843 5.02767Z" stroke="#212121" stroke-opacity="0.48" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_33_64">
-                                    <rect width="14" height="14" fill="white" transform="translate(0.867615 0.944336)" />
-                                </clipPath>
-                            </defs>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#9d9d9d" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                         </svg>
                         <input type="tel" class="form-control" id="contactNumber" name="phonenumber" placeholder="Phone" required />
                     </div>
@@ -572,8 +556,9 @@
                     <div class="description text-sm md:text-base">
                         <p class="text-lg font-bold text-secondary">“Amazing Service!”</p>
                         <div class="text-dark-teal">
-                            <p>“dolor neque tempor odio, id pellentesque leo purus vel ante.</p>
-                            <p>Nam ligula leo, faucibus vel ligula ullamcorper, tempus egestas felis.</p>
+                            <p>
+                            Absolutely stoked with Christian. He came in, fixed the problem at no cost to us and saved us thousands!! When we are ready to properly fix the roof, he’s in my contacts! Highly recommended!
+                            </p>
                         </div>
                     </div>
 
@@ -582,7 +567,7 @@
                             <?= renderImg('service1.jpg', 'lib', 'h-full w-full object-cover') ?>
                         </div>
                         <div>
-                            <p class="text-primary font-extrabold text-base md:text-xl">Tom Green</p>
+                            <p class="text-primary font-extrabold text-base md:text-xl">Marianna Hill</p>
                             <p class="text-light-teal text-sm md:text-base">Customer</p>
                         </div>
                     </div>
