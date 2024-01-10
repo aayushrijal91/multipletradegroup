@@ -1,5 +1,11 @@
 header {
     background: linear-gradient(108deg, #0094F4 16.25%, #0073BD 101.07%);
+
+    nav {
+        &.scrolled {
+            background: linear-gradient(108deg, #0094F4 16.25%, #0073BD 101.07%);
+        }
+    }
 }
 
 section.trusted {

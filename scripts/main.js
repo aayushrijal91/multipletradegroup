@@ -11,9 +11,12 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 });
 
 $(window).on('scroll', () => {
-    if ($(this).scrollTop() >= 600) {
+    
+    if ($(this).scrollTop() >= 400) {
+        $('nav').addClass('scrolled');
         $('#return-to-top').fadeIn(300);
     } else {
+        $('nav').removeClass('scrolled');
         $('#return-to-top').fadeOut(300);
     }
 });
@@ -149,7 +152,7 @@ $(() => {
         })
     }
 
-    $('#fileUpload').on('change', function() {
+    $('#fileUpload').on('change', function () {
         let file = $(this).val();
         if (file != "") {
             let theSplit = file.split('\\');
@@ -163,7 +166,7 @@ function validateForm() {
     let phoneInput = $('#contactNumber').val();
     let re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
 
-    if(!re.test(phoneInput)) {
+    if (!re.test(phoneInput)) {
         $('#phoneError').fadeIn();
 
         return false;
