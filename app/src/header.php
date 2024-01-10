@@ -7,6 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" href="./assets/images/favicon.png" type="image/png">
 	<title><?= $site ?></title>
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://multipletradegroup.com/roofing-sydney/">
+	<meta property="og:title" content="<?= $site ?> - Looking for a roofing company that puts quality and customer satisfaction first? Look no further than MTG Roofing. Our team of experts are passionate about roofing, and we're dedicated to making a difference one roof at a time.">
+	<meta property="og:description" content="<?= $site ?>">
+	<meta property="og:image" content="https://multipletradegroup.com/roofing-sydney/assets/images/desktop.jpg">
 	<link rel="stylesheet" href="./assets/css/main.css?v=0.1">
 
 	<!-- Recaptcha Here -->

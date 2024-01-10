@@ -199,7 +199,7 @@
 
                         <?= renderImg('triangle.png', 'lib', 'w-full') ?>
                         <div class="bg-[#0da0ff] py-5 px-10 text-center min-h-[91px] flex justify-center items-center">
-                            <p class="text-2xl text-white font-extrabold leading-none capitalize">30 Year warranty on all<br /> first time</p>
+                            <p class="text-2xl text-white font-extrabold leading-none capitalize">30 Year warranty on all<br /> new roofs</p>
                         </div>
                     </div>
                 </div>
@@ -226,8 +226,6 @@
                     </p>
 
                     <h2 class="capitalize text-dark text-45 md:text-65 text-center md:text-start leading-none font-articulat-heavy pt-5"><span class="text-white">We're Proud To Be One Of</span> Sydney's Most Trusted Roofing Companies</h2>
-
-                    <p class="text-white text-sm md:text-base text-center md:text-start pt-5">Years of experience and countless satisfied customers. Proud to be Sydney's most trusted roofing company</p>
 
                     <div class="flex justify-center md:justify-start">
                         <a href="tel:<?= $phone_number ?>" class="rounded-full bg-white px-12 text-primary text-lg font-bold inline-flex justify-center items-center h-[60px] mt-6"><?= $phone_number ?></a>
@@ -418,6 +416,16 @@
 
                 <div class="w-full px-2">
                     <div class="form-group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                        <input type="text" class="form-control" name="suburb" placeholder="Suburb" required />
+                    </div>
+                </div>
+
+                <div class="w-full px-2">
+                    <div class="form-group">
                         <textarea class="form-control" rows="6" name="message" placeholder="Message"></textarea>
                     </div>
                 </div>
@@ -557,7 +565,7 @@
                         <p class="text-lg font-bold text-secondary">“Amazing Service!”</p>
                         <div class="text-dark-teal">
                             <p>
-                            Absolutely stoked with Christian. He came in, fixed the problem at no cost to us and saved us thousands!! When we are ready to properly fix the roof, he’s in my contacts! Highly recommended!
+                                Absolutely stoked with Christian. He came in, fixed the problem at no cost to us and saved us thousands!! When we are ready to properly fix the roof, he’s in my contacts! Highly recommended!
                             </p>
                         </div>
                     </div>
